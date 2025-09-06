@@ -6,6 +6,7 @@ A lightweight **Distributed File System** inspired by Hadoop HDFS, implemented i
 This project demonstrates core distributed systems concepts like **file chunking, replication, fault tolerance, metadata management, and resilient data access**.
 
 ## link for repository 
+== https://github.com/Slother12/Distributed-File-System/tree/main
 
 ## Features
 -  **File Storage** – Splits large files into fixed-size chunks for distributed storage  
