@@ -5,6 +5,8 @@ A lightweight Distributed File System (mini-HDFS) built with Python, FastAPI, an
 A lightweight **Distributed File System** inspired by Hadoop HDFS, implemented in **Python, FastAPI, and Docker**.  
 This project demonstrates core distributed systems concepts like **file chunking, replication, fault tolerance, metadata management, and resilient data access**.
 
+## link for repository 
+
 ## Features
 -  **File Storage** – Splits large files into fixed-size chunks for distributed storage  
 -  **Replication** – Stores multiple replicas of each chunk across DataNodes for fault tolerance  
@@ -41,3 +43,4 @@ This project is a **scalable, fault-tolerant file storage system** that:
 - Automated re-replication on node failure
 - Performance monitoring dashboard
 - Rebalancer to distribute chunks evenly
+
