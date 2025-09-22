@@ -1,0 +1,16 @@
+pip install fastapi uvicorn requests
+
+MiniHDFS/
+│
+├─ metadata_server.py     # Metadata Server (NameNode)
+├─ datanode.py            # DataNode server
+├─ cli.py                 # Command-line interface
+├─ data/                  # Folder where DataNodes store blocks
+├─ HOW_TO_RUN.md          # This file
+└─ .gitignore
+
+python metadata_server.py
+python datanode.py
+python cli.py
+
+then upload download or delete
